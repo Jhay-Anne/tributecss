@@ -1,21 +1,27 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: #d1d1d1;
   color: rgb(59, 59, 59);
   width: 100%;
+  margin-top: 5px;
 }
 
 #header {
+  width: 90%;
+  height: 70px;
+  padding-top: 5px;
   margin: 0 auto;
   font-size: 50px;
   text-align: center;
-  color: #173753;
-  margin-bottom: 15px;
+  color: whitesmoke;
+  background-color: #3c5788;
 }
 #intro {
   width: 100%;
   text-align: center;
+  background-color: #3c5788;
+  color: whitesmoke;
+  margin-bottom: -30px;
 }
 #name {
   color: #173753;
@@ -23,21 +29,38 @@ body {
 
 #bio {
   width: 80%;
-  text-align: center;
+  text-align: left;
+  font-size: 25px;
   margin-left: 140px;
+  color: white;
+  padding-bottom: 20px;
+  height: 100vh;
+  padding-top: 100px;
 }
 
 img {
-  margin: 0 auto;
+  width: 90%;
 }
 
 a {
   text-decoration: none;
+  color: #fde12d;
+}
+
+#sec2 {
+  width: 100%;
+  background-color: #73829c;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: whitesmoke;
 }
 .achievements {
   width: 80%;
-  margin: auto;
-  padding-left: 30px;
+  text-align: left;
+  font-size: 25px;
+  margin-left: 140px;
+  color: white;
+  padding-bottom: 20px;
 }
 
 /* https://coolors.co/d1d1d1-dbdbdb-37123c-636363-4c4c4c */
