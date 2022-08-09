@@ -1,27 +1,41 @@
+@font-face {
+  font-family: Alexis;
+  src: url(Zag\ Regular.otf);
+}
 body {
+  font-family: Alexis;
   padding: 0;
   margin: 0;
   color: rgb(59, 59, 59);
   width: 100%;
   margin-top: 5px;
 }
-
+#landing {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgba(2, 2, 2, 0.6), rgba(8, 8, 8, 0.7)),
+    url("obama2_0.webp") no-repeat fixed center;
+  background-size: cover;
+}
 #header {
   width: 90%;
   height: 70px;
-  padding-top: 5px;
-  margin: 0 auto;
-  font-size: 50px;
+  position: relative;
+  top: 20%;
+  left: 5%;
+  font-size: 40px;
   text-align: center;
   color: whitesmoke;
-  background-color: #3c5788;
+
+  /* background-color: #3c5788; */
 }
 #intro {
   width: 100%;
   text-align: center;
   background-color: #3c5788;
   color: whitesmoke;
-  margin-bottom: -30px;
+  /* margin-bottom: -30px; */
+  padding-top: 20px;
 }
 #name {
   color: #173753;
@@ -34,12 +48,16 @@ body {
   margin-left: 140px;
   color: white;
   padding-bottom: 20px;
-  height: 60vh;
-  padding-top: 100px;
+  height: 100vh;
+  /* padding-top: 100px; */
 }
 
 img {
-  width: 90%;
+  width: 350px;
+  height: 250px;
+  position: relative;
+  left: 38%;
+  top: 20%;
 }
 
 a {
