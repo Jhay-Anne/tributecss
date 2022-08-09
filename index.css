@@ -32,7 +32,7 @@ body {
 #intro {
   width: 100%;
   text-align: center;
-  background-color: #3c5788;
+  background: linear-gradient(to bottom, #0e9594, #3c5788);
   color: whitesmoke;
   /* margin-bottom: -30px; */
   padding-top: 20px;
@@ -67,7 +67,7 @@ a {
 
 #sec2 {
   width: 100%;
-  background-color: #73829c;
+  background: linear-gradient(to bottom, #3c5788, #0e9594);
   padding-top: 20px;
   padding-bottom: 30px;
   color: whitesmoke;
